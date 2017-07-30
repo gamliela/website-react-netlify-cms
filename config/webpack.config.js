@@ -37,7 +37,7 @@ const config = {
                 ]
             },
             {
-                test: /\.(png|jpeg|jpg)$/,
+                test: /\.(png|jpeg|jpg|gif|svg)$/,
                 include: projectPath,
                 loader: 'url-loader'
             }

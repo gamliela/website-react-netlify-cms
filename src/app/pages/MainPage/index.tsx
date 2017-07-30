@@ -1,6 +1,6 @@
 import * as React from "react";
 import {observer} from "mobx-react";
-import style from './style.scss';
+import style from "./style.scss";
 import {AppManager} from "../../AppManager";
 
 export interface MainPageProps {
