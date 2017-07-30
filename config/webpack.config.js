@@ -8,7 +8,7 @@ const srcPath = path.join(projectPath, 'src');
 const appPath = path.join(srcPath, 'app');
 
 const config = {
-    entry: path.join(appPath, 'index.jsx'),
+    entry: path.join(appPath, 'index.tsx'),
     output: {
         filename: 'bundle.js',
         path: buildPath
@@ -16,9 +16,9 @@ const config = {
     module: {
         rules: [
             {
-                test: /\.(js|jsx)$/,
+                test: /\.(ts|tsx)$/,
                 include: srcPath,
-                loader: 'babel-loader'
+                loader: 'ts-loader'
             },
             {
                 test: /\.(sass|scss)$/,
@@ -41,10 +41,10 @@ const config = {
                 include: projectPath,
                 loader: 'url-loader'
             }
-        ],
+        ]
     },
     resolve: {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.ts', '.tsx']
     },
     plugins: [
         new HtmlWebpackPlugin({

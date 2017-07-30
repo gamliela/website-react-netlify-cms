@@ -1,11 +1,14 @@
-import React from 'react';
-import {observer} from 'mobx-react';
+import * as React from "react";
+import {observer} from "mobx-react";
 import style from './style.scss';
+import {AppManager} from "../../AppManager";
 
-// TODO: add PropTypes and TypeScript
+export interface MainPageProps {
+    appManager: AppManager;
+}
 
 @observer
-export default class MainPage extends React.Component {
+export default class MainPage extends React.Component<MainPageProps> {
     render() {
         const appManager = this.props.appManager;
         return (
