@@ -1,5 +1,5 @@
 # starter-react-mobx-css-modules
-My starter kit for projects based on React, MobX and CSS Modules.
+My starter kit for projects based on React, MobX, CSS Modules and TypeScript.
 
 This kit consists of the latest versions of:
 * React
@@ -20,5 +20,3 @@ The output goes to `/build/bundle.js` & `/build/index.html`
 #### Development Server
 
 `npm dev-server`
-
-I’m about to add TypeScript support as well.
