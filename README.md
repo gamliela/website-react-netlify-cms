@@ -7,6 +7,7 @@ This kit consists of the latest versions of:
 * MobX
 * SCSS
 * CSS Modules
+* TypeScript
 
 #### Build Instructions
 
