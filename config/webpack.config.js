@@ -44,7 +44,7 @@ const config = {
         ]
     },
     resolve: {
-        extensions: ['.js', '.ts', '.tsx']
+        extensions: ['.tsx', '.ts', '.js']  // order is important. give typescript precedence when js file already exists.
     },
     plugins: [
         new HtmlWebpackPlugin({
