@@ -1,13 +1,7 @@
-bower_components
-node_modules
-.idea
-build
+/.idea
+/node_modules
+/build
+/generated
+
 npm-debug.log
 debug.log
-
-# do not commit auto-generated files (js, map, css)
-/src/**/*.js
-/src/**/*.css
-/src/**/*.map
-/config/typescript.config.js
-/config/typescript.config.js.map

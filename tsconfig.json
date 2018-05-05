@@ -3,10 +3,11 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "jsx": "react",
-    "noImplicitAny": true,
-    "target": "es5",
+    "noImplicitAny": false,
+    "target": "es6",
     "module": "es6",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "outDir": "generated"
   },
   "files": [
     "./config/typescript.config.ts"

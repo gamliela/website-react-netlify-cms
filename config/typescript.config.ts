@@ -1,10 +1,3 @@
-// allow import of scss modules
-// since we use "css modules" plugin, the content type is defined as map from string to string
-declare module '*.scss' {
-    const content: { [key: string]: string };
-    export default content;
-}
-
 // allow import of png images
 // since we use "url-loader" plugin, the content type is simply a string (url)
 declare module '*.png' {
