@@ -1,8 +1,8 @@
 {
-  "name": "starter-react-mobx-styled-components",
+  "name": "website",
   "version": "1.0.0",
   "main": "src/index.jsx",
-  "repository": "https://github.com/gamliela/starter-react-mobx-styled-components.git",
+  "repository": "https://github.com/gamliela/website.git",
   "author": "Alon Gamliel <alon@gamliela.com>",
   "license": "Apache-2.0",
   "scripts": {
