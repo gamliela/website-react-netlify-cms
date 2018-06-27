@@ -1,15 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import {configure} from "mobx";
-import {AppManager} from "./AppManager";
-import MainPage from "./pages/MainPage/index";
+import NewPostPage from "./pages/NewPostPage/NewPostPage";
+import 'bulma/css/bulma.css';
 
-// mobx configuration
-configure({enforceActions: true});
-
-// create our app manager
-const appManager: AppManager = new AppManager();
-
-ReactDOM.render(
-  <MainPage appManager={appManager}/>,
-  document.getElementById('app-root'));
+ReactDOM.render(<NewPostPage/>, document.getElementById('app-root'));
