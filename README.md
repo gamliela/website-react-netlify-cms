@@ -1,14 +1,14 @@
 # Website
-My personal website. Based on React, MobX, Styled Components and TypeScript.
+My personal website. Based on React, MobX and TypeScript.
 
 #### Build Instructions
 
-`npm install`
+`yarn install`
 
-`npm build`
+`yarn build`
 
 The output goes to `/build/bundle.js` & `/build/index.html`
 
 #### Development Server
 
-`npm dev-server`
+`yarn run dev-server`

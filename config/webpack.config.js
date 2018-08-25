@@ -21,14 +21,30 @@ const config = {
         loader: 'ts-loader'
       },
       {
+        test: /(bulma|Draft)\.css$/,
+        include: projectPath,
+        use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.(sass|scss)$/,
+        include: projectPath,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              importLoaders: 1,   // make sure sass-loader is used on imported assets
+              localIdentName: '[local]---[hash:base64:5]'
+            }
+          },
+          'sass-loader'
+        ]
+      },
+      {
         test: /\.(png|jpeg|jpg|gif|svg)$/,
         include: projectPath,
         loader: 'url-loader'
-      },
-      {
-        test: /\.(css)$/,
-        include: projectPath,
-        use: ['style-loader', 'css-loader']
       }
     ]
   },

@@ -11,7 +11,11 @@ class NewPostPage extends React.Component<{}> {
   render() {
     return (
       <DefaultLayout>
-        <Editor model={editorModel}/>
+        <div className="container">
+          <h1>New Post</h1>
+          <button className="button">Save Draft</button>
+          <Editor model={editorModel}/>
+        </div>
       </DefaultLayout>
     );
   }

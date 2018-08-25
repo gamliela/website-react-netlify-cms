@@ -1,6 +1,7 @@
 import * as React from "react";
 import {observer} from "mobx-react";
 import {Editor as DraftEditor} from 'draft-js';
+import 'draft-js/dist/Draft.css';
 import EditorModel from "./EditorModel";
 
 @observer
