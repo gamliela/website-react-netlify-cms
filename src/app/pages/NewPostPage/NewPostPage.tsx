@@ -11,8 +11,8 @@ class NewPostPage extends React.Component<{}> {
   render() {
     return (
       <DefaultLayout>
-        <div className="container">
-          <h1>New Post</h1>
+        <div className="section">
+          <h1 className="title">New Post</h1>
           <button className="button">Save Draft</button>
           <Editor model={editorModel}/>
         </div>
