@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 // paths
 const projectPath = path.resolve(__dirname, '..');
-const buildPath = path.join(projectPath, 'build');
+const buildPath = path.join(projectPath, 'public');
 const srcPath = path.join(projectPath, 'src');
 const appPath = path.join(srcPath, 'app');
 
