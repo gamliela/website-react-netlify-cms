@@ -7,4 +7,4 @@ rating: '5'
 ---
 Hello friends,
 
-this is my new BBQ! Hurray2223334!
+this is my new BBQ! Hurray!
